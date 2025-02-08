@@ -21,4 +21,4 @@ const interval = setInterval(() => {
   countdownElement.innerHTML =
     `<span class="big-count">${days}d ${hours}h ${minutes}m ${seconds}s</span><br>` +
     `<span class="small-text">until d-day.</span>`;
-}, 1000);
+});
