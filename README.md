@@ -1,1 +1,0 @@
-Simple custom landing page to manage key resources while working on my undergraduate thesis.
