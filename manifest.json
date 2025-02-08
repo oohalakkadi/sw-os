@@ -1,11 +1,11 @@
 {
-  "name": "buildspace os",
-  "description": "buildspace os — your new home for nights and weekends",
+  "name": "sig work os",
+  "description": "sig work os — countdown til the end bby",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
-    "48": "assets/48.png",
-    "128": "assets/128.png"
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
   },
   "permissions": ["tabs"],
   "background": {
