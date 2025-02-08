@@ -127,40 +127,17 @@
       </a>
       <!-- Second button -->
       <a href="https://signature-work.dukekunshan.edu.cn/wp-content/uploads/2024/12/DKU-UG-Signature-Work-Handbook-V8-2024-2025-1.pdf" target="_blank">
-        <img src="https://framerusercontent.com/images/Li4ek7P6XlQpWJIxamgsQWA6ho.png" alt="Site 1 Icon">
+        <img src="https://framerusercontent.com/images/Li4ek7P6XlQpWJIxamgsQWA6ho.png" alt="SW Handbook Icon">
         <p>sw handbook</p>
       </a>
       <!-- Third button -->
       <a href="https://signature-work.dukekunshan.edu.cn/" target="_blank">
-        <img src="https://framerusercontent.com/images/Li4ek7P6XlQpWJIxamgsQWA6ho.png" alt="Site 2 Icon">
+        <img src="https://framerusercontent.com/images/Li4ek7P6XlQpWJIxamgsQWA6ho.png" alt="SW Website Icon">
         <p>sw website</p>
       </a>
     </div>
     
-    <script>
-      // Set up the countdown timer to Sunday, March 9th, 11:59 PM Beijing Time.
-      const countdownElement = document.getElementById("countdown");
-      const targetDate = new Date("March 9, 2025 23:59:00 GMT+0800").getTime();
-      
-      const interval = setInterval(() => {
-        const now = new Date().getTime();
-        const distance = targetDate - now;
-        
-        if (distance < 0) {
-          countdownElement.innerHTML = '<span class="big-count">Deadline reached!</span>';
-          clearInterval(interval);
-          return;
-        }
-        
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-        countdownElement.innerHTML =
-          `<span class="big-count">${days}d ${hours}h ${minutes}m ${seconds}s</span><br>` +
-          `<span class="small-text">until d-day.</span>`;
-      });
-    </script>
+    <!-- Reference the external countdown script -->
+    <script src="countdown.js"></script>
   </body>
 </html>
